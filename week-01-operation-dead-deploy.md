@@ -17,11 +17,10 @@ Live multi-user Azure training tenant, Reader access
 <img width="1142" height="555" alt="Screenshot 2026-08-27 at 18 59 15" src="https://github.com/user-attachments/assets/7f2229ad-4a86-45b8-bc1d-052aad9346e9" />
 
 4. Moved to the Resource Group’s Policy Compliance page and noticed a non-compliant policy.
-<img width="1328" height="621" alt="Screenshot 2026-08-27 at 19 07 05" src="https://github.com/user-attachments/assets/20da8e16-6bf2-42a7-a4ac-28044e1a2ab4" />
+<img width="1328" height="621" alt="Screenshot 2026-08-27 at 19 07 05" src="https://github.com/user-attachments/assets/1f362bcc-e1bf-4f1f-abcd-c8b5f9bef18c" />
 
-6. Navigated to Authoring, Assignments, and the appropriate policy under Policy name. Upon reviewing the policy, the Effect parameter is set to allow non-compliant requests.
+5. Navigated to Authoring, Assignments, and the appropriate policy under Policy name. Upon reviewing the policy, the Effect parameter is set to allow non-compliant requests.
 <img width="1209" height="520" alt="Screenshot 2026-08-27 at 19 12 54" src="https://github.com/user-attachments/assets/789765e0-df81-423c-9701-28b045b3d8d2" />
-
 
 
 ## What surprised me
