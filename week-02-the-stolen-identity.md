@@ -25,21 +25,23 @@ Live multi-user Azure training tenant, Reader access.
 <img width="1251" height="731" alt="Screenshot 2026-09-07 at 13 16 07" src="https://github.com/user-attachments/assets/b80a72fc-f58c-437f-8175-c1ad2f5c4c02" />
 
 
-5. To collect tokens from users, the attackers created phishing URL to execute confused deputy attacks and sidestep security controls.
+5. To collect tokens from users, the attackers created a phishing URL to execute confused deputy attacks and sidestep security controls.
 <img width="1446" height="629" alt="Screenshot 2026-09-07 at 13 43 17" src="https://github.com/user-attachments/assets/732f1068-f193-4295-884f-37f490997603" />
 
 
 ## What surprised me
-The default privileges that are set for these accounts/apps. Without careful attention to how policies are set up to configure scope/permissions, limitations preventing read/write access are minimal.
+The default privileges that are set for these accounts/apps and the lack of alerts that are generated. Without careful attention to how policies are set up to configure scope/permissions, limitations preventing read/write access are minimal.
 
 ## Findings and recommendations
-Found a rogue app with a redirect URI and a custom scope on the legacy app with a custom scope on the Expose an API blade.
+Found a rogue app with a redirect URI and a legacy app with a custom scope on the Expose an API blade.
 
 - Disable/delete rogue app.
 - Delete unauthorized scope.
-- Rotate credentials
+- Rotate credentials.
+- Hunt logs to/from the rogue app.
+- Restrict user consent.
 
 ## What I learned
-- Expose an API is an attack vector. Adding a custom scope can turn a trust app into a permission publisher.
+- Expose an API is an attack vector. Adding a custom scope can turn a trusted app into a permission publisher.
 - Internal apps need the same control and oversight as privileged roles/users.
 - OAuth phishing can bypass conditional access controls since the user has already passed the regular checks.
