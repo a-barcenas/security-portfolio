@@ -4,14 +4,16 @@ Documented cloud security investigations, built in a live Azure tenant
 (Mad Hat Labs, a multi-user training environment).
 
 Target role: SOC Analyst / Security Analyst
-Currently: Student | Remote
+
+Currently: Student 
+
 Contact: a.barcenas.sec@gmail.com · https://www.linkedin.com/in/aaron-barcenas/
 
 ## Investigations
 | # | Title | Focus | Write-up |
 |---|-------|-------|----------|
 | 1 | Operation Dead Deploy | Governance forensics, deployment audit trail | [week 1](./week-01-operation-dead-deploy.md) |
-| 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | coming, week 2 |
+| 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | [week 2](./week-02-the-stolen-identity.md) |
 | 3 | Privilege Audit | RBAC and least privilege | coming, week 3 |
 | 4 | Spin Up and Lock Down | Compute attack surface | coming, week 4 |
 | 5 | Network the Operative | Network segmentation | coming, week 5 |
