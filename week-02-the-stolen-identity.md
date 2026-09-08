@@ -40,6 +40,7 @@ Found a rogue app with a redirect URI and a legacy app with a custom scope on th
 - Rotate credentials.
 - Hunt logs to/from the rogue app.
 - Restrict user consent.
+- Revoke OAuth2 permission grants.
 
 ## What I learned
 - Expose an API is an attack vector. Adding a custom scope can turn a trusted app into a permission publisher.
