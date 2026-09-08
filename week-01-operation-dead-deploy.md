@@ -24,7 +24,7 @@ Live multi-user Azure training tenant, Reader access
 
 
 ## What surprised me
-What surprised me was how a seemingly simple misconfiguration can potentially major implications.  
+What surprised me was how a seemingly simple misconfiguration can potentially cause major implications.  
 
 ## Findings and recommendations
 Found improperly assigned policy parameters. Recommend adjusting parameters to meet expected policy outcomes.
