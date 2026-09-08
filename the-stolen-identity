@@ -1,0 +1,44 @@
+# Investigating an Identity Attack in Entra ID
+
+## Scenario
+
+Attacker gained access to the tenant within the last 24 hours without triggering any alerts. The team flagged new items found in an old internal legacy connector app. Investigation found attackers exploited vulnerabilities in weak identity controls. 
+
+## Environment
+Live multi-user Azure training tenant, Reader access.
+
+## Investigation
+1. Compromised account had retained Ownership access to a legacy service app due to loose access control policy. This legacy service was used to gain access and establish a foothold in the environment. 
+
+
+2. Attacker gained elevated privileges by minting a new client secret on the legacy app, allowing the inheritance of the service principal’s app directory permissions. Note Client secret expiry date.
+
+Pic
+
+3. The attacker then created a new app registration and established its service principal as an Owner of the exploited legacy app.
+
+Pic 1
+Pic 2
+
+4. To establish persistence, the attacker created and configured a custom scope via the “Expose an API” blade on the legacy service app that enables them to regain access by using the custom exposed API and their rogue app credentials.
+
+Pic
+
+5. To collect tokens from users, the attackers created phishing URL to execute confused deputy attacks and sidestep security controls.
+
+Pic
+
+## What surprised me
+The default privileges that are set for these accounts/apps. Without careful attention to how policies are set up to configure scope/permissions, limitations preventing read/write access are minimal.
+
+## Findings and recommendations
+Found a rogue app with a redirect URI and a custom scope on the legacy app with a custom scope on the Expose an API blade.
+
+- Disable/delete rogue app.
+- Delete unauthorized scope.
+- Rotate credentials
+
+## What I learned
+-Expose an API is an attack vector. Adding a custom scope can turn a trust app into a permission publisher.
+-Internal apps need the same control and oversight as privileged roles/users.
+-OAuth phishing can bypass conditional access controls since the user has already passed the regular checks.
