@@ -2,7 +2,7 @@
 
 ## Scenario
 
-Attacker gained access to the tenant within the last 24 hours without triggering any alerts. The team flagged new items found in an old internal legacy connector app. Investigation found attackers exploited vulnerabilities in weak identity controls. 
+Attacker gained access to the tenant within the last 24 hours without triggering any alerts. The team flagged new items found in an old internal legacy connector app. Investigation found weak control and monitoring of Entra apps and OAuth configurations.
 
 ## Environment
 Live multi-user Azure training tenant, Reader access.
