@@ -52,6 +52,10 @@ Name lookup was rewritten to a private IP in the DNS zone. That IP is a PE NIC t
 
 FLAG: If the control objective is to inspect all outbound traffic, adding a more specific UDR so this prefix goes to the appliance may be prudent. 
 
+## Diagram
+
+<img width="1067" height="445" alt="Screenshot 2026-09-28 at 21 06 02" src="https://github.com/user-attachments/assets/12975faa-54be-4e7d-bba6-03209bb26ebc" />
+
 
 ## What I learned
 
