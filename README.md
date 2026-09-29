@@ -16,7 +16,7 @@ Contact: a.barcenas.sec@gmail.com · https://www.linkedin.com/in/aaron-barcenas/
 | 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | [week 2](./week-02-the-stolen-identity.md) |
 | 3 | Privilege Audit | RBAC and least privilege | [week 3](./week-03-privilege-audit.md) |
 | 4 | Spin Up and Lock Down | Compute attack surface | [week 4](./week-04-spin-up-and-lock-down.md) |
-| 5 | Network the Operative | Network segmentation | coming, week 5 |
+| 5 | Network the Operative | Network segmentation | [week 5](./week-05-network-the-operative.md) |
 | 6 | Bucket Looting | Storage exposure hunting | coming, week 6 |
 | 7 | Find the Anomaly | Log analysis and KQL | coming, week 7 |
 | 8 | Hunt the Threat | SIEM operations (Sentinel) | coming, week 8 |
