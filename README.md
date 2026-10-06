@@ -17,7 +17,7 @@ Contact: a.barcenas.sec@gmail.com · https://www.linkedin.com/in/aaron-barcenas/
 | 3 | Privilege Audit | RBAC and least privilege | [week 3](./week-03-privilege-audit.md) |
 | 4 | Spin Up and Lock Down | Compute attack surface | [week 4](./week-04-spin-up-and-lock-down.md) |
 | 5 | Network the Operative | Network segmentation | [week 5](./week-05-network-the-operative.md) |
-| 6 | Bucket Looting | Storage exposure hunting | coming, week 6 |
+| 6 | Bucket Looting | Storage exposure hunting | [week 6](./week-06-storage-exposure.md) |
 | 7 | Find the Anomaly | Log analysis and KQL | coming, week 7 |
 | 8 | Hunt the Threat | SIEM operations (Sentinel) | coming, week 8 |
 | 9 | Score the Tenant | Cloud security posture | coming, week 9 |
