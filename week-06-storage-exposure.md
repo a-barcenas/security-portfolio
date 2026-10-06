@@ -47,9 +47,13 @@ Once confirmed, I moved to IAM to see which Managed Identities has resource perm
 With the storage account configured this way, we're able to access it directly from the public internet leaving it susceptible to exposure to anyone that acquires the direct link.
 
 
+## Summary Artifact
+
+<img width="1239" height="643" alt="Screenshot 2026-10-05 at 20 35 52" src="https://github.com/user-attachments/assets/61a364fb-d4fc-4547-8f4f-7ab914998c57" />
+
+
 ## What broke / what surprised me
 What took me a while to understand was the Key Vault. Understanding how the steps pieced together made it difficult for me to conceptualize what the secret was even for. Finally, I realized that the app loads its connection target from Key Vault, allowed by its managed identity. In this case, that target is the storage account.
-
 
 
 ## Findings and recommendations
