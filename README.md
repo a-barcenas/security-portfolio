@@ -18,7 +18,7 @@ Contact: a.barcenas.sec@gmail.com · https://www.linkedin.com/in/aaron-barcenas/
 | 4 | Spin Up and Lock Down | Compute attack surface | [week 4](./week-04-spin-up-and-lock-down.md) |
 | 5 | Network the Operative | Network segmentation | [week 5](./week-05-network-the-operative.md) |
 | 6 | Bucket Looting | Storage exposure hunting | [week 6](./week-06-storage-exposure.md) |
-| 7 | Find the Anomaly | Log analysis and KQL | [week 7](./week07-finding-the-anomaly.md) |
+| 7 | Find the Anomaly | Log analysis and KQL | [week 7](./week-07-finding-the-anomaly.md) |
 | 8 | Hunt the Threat | SIEM operations (Sentinel) | coming, week 8 |
 | 9 | Score the Tenant | Cloud security posture | coming, week 9 |
 | 10 | The Breach (capstone) | Full incident investigation | coming, week 10 |
