@@ -38,9 +38,9 @@ After seeing all logging was disabled, I went to check the AzureActivity table t
 
 
 ## What broke / what surprised me
-The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 
-What surprised me is that there were no lock-out rules for the numerous failed login attempts. Similarly, I’m surprised that a rule with such a high threshold was ever implemented. 
+What surprised me is that there were no lock-out rules for the numerous failed login attempts and that a rule with such a high threshold was ever implemented. I'm also surprised that features like disabling/enabling the diagnostics don't trigger any sort of notification by default. 
+
 
 ## Findings and recommendations
 Burst failed login was observed via KQL query and workbook. 
@@ -53,4 +53,3 @@ Burst failed login was observed via KQL query and workbook.
 ## What I learned
 - Global searches are a quick and easy way to orient yourself in an unfamiliar workspace. 
 - Workbooks can act as a safety net with ongoing monitoring to display spikes in activity. 
-- That features like disabling/enabling the diagnostics don't trigger alerts by default. 
